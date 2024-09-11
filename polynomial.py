@@ -19,6 +19,9 @@ class Add:
 
     def __repr__(self):
         return repr(self.p1) + " + " + repr(self.p2)
+    
+    def evaluate(self, i):
+        
 
 class Mul:
     def __init__(self, p1, p2):
